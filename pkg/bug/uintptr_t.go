@@ -22,4 +22,4 @@ func main() {
 	}
 	}
 
-// go build -o test && GODEBUG="gctrace=1" go run uintptr_t.go
+// GODEBUG="gctrace=1" go run uintptr_t.go
